@@ -6,7 +6,7 @@ import './Header.css'
 
 const Header = () => {
     return (
-        <Navbar bg="light" expand="lg">
+        <Navbar className='sticky-top' bg="light" expand="lg">
         <Container>
           <Navbar.Brand href="#home">
               <img className='logo' src={logo} alt="" />

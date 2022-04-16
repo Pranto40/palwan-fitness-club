@@ -1,0 +1,69 @@
+.home {
+    min-height: 90vh;
+    background-image: url('../../images/home.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    background-color: initial;
+}
+.home::before {
+    position: absolute;
+    content: "";
+    right: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background: #001E3C;
+    opacity: .8;
+}
+.home-content {
+    margin-top: 15rem;
+    opacity: .9;
+}
+.home-content span {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 6px;
+    color: #fff;
+    opacity: .8;
+}
+.home-content h1 {
+    font-size: 80px;
+    color: #fff;
+    letter-spacing: -2px;
+    margin: 10px 0px 10px 0px;
+    text-transform: uppercase;
+    font-family: "Montserrat", sans-serif;
+    color: rgb(232, 230, 227);
+}
+.home-content p {
+    margin-bottom: 30px;
+    color: #fff;
+    opacity: .9;
+    font-size: 20px;
+    line-height: 32px;
+    margin: 0 auto 30px;
+}
+.btn-main {
+    background-image: initial;
+    background-color: rgb(180, 18, 56);
+    color: rgb(232, 230, 227);
+    border-color: rgb(160, 16, 49);
+}
+.btn-main:hover {
+    border-color: rgb(48, 52, 54);
+    background-image: initial;
+    background-color: transparent;
+    color: rgb(232, 230, 227);
+}
+.btn {
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 14px 40px;
+    text-transform: uppercase;
+    border-radius: 50px;
+    font-weight: 700;
+    border: 2px solid transparent;
+    transition: all 0.2s ease;
+}
