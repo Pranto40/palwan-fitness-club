@@ -5,8 +5,7 @@ import ServicesDetails from '../ServicesDetails/ServicesDetails';
 import './Services.css';
 
 const Services = () => {
-    const [servicesItems] = useServices([])
-    console.log(servicesItems);
+    const [servicesItems] = useServices([]);
     return (
         <div>
             <div className="heading mt-5">

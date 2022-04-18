@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Card, CardImg } from 'react-bootstrap';
+import {Card, CardImg } from 'react-bootstrap';
 
 const ServicesDetails = ({servicesItem}) => {
     const {img, title, description} = servicesItem
@@ -11,7 +11,7 @@ const ServicesDetails = ({servicesItem}) => {
                     <Card.Text>
                     {description}
                     </Card.Text>
-                    <Button className="primary">Go somewhere</Button>
+                    <button className="btn btn-main">Go somewhere</button>
                 </Card.Body>
         </div>        
     );

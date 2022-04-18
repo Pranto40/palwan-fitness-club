@@ -52,15 +52,13 @@
     border-color: rgb(160, 16, 49);
 }
 .btn-main:hover {
-    border-color: rgb(48, 52, 54);
-    background-image: initial;
-    background-color: transparent;
+    border-color: rgb(48, 52, 54); 
     color: rgb(255, 255, 255);
 }
 .btn {
     font-size: 14px;
     letter-spacing: 1px;
-    padding: 14px 40px;
+    padding: 10px 35px;
     text-transform: uppercase;
     border-radius: 50px;
     font-weight: 700;

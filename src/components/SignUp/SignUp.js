@@ -72,8 +72,10 @@ const SignUp = () => {
     const [showPassconfirm, setShowPassConfirm] = useState(false);
 
     return (
-        <div className='d-block mx-auto w-25 border rounded-3 p-3 mt-5'>
-            <h2 className='text-center mb-3 heading'>Sign Up</h2>
+        <div className="container">
+            <div className="row">
+                <div className="col-md-6 col-sm-12 mx-auto border rounded-3 p-3 mt-5">
+                <h2 className='text-center mb-3 heading'>Sign Up</h2>
         <Form onSubmit={handleSignUp}>
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
@@ -99,7 +101,7 @@ const SignUp = () => {
             <Form.Group className="mb-3" controlId="formBasicCheckbox">
                 <Form.Check type="checkbox" label="I accept the Terms of Use & privacy policy" />
             </Form.Group>
-            <button className="btn loginBtn w-100">Sign Up</button>
+            <button className="btn btn-main w-100">Sign Up</button>
             <p className='text-center my-3 mb-3'><span>Or SignUp with</span></p>
             <button className=" btn googlebtn w-100 mb-3">
                 <img src={googleIcon} alt="" />
@@ -110,6 +112,8 @@ const SignUp = () => {
                 <Link to='/login'>Log In</Link>
             </p>
         </Form>
+                </div>
+            </div>
         </div>
     );
 };

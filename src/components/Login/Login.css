@@ -1,11 +1,12 @@
-.loginBtn {
-    background-color: rgb(180, 18, 56);
-}
-.loginBtn:hover {
-    color: #fff;
-}
+
 .googlebtn {
-    background-color: rgb(127, 127, 224);
+    background-color: rgb(47, 97, 176);
+    color: #fff;
+    border-color: rgb(47, 97, 176);
+}
+.googlebtn:hover {
+    color: #fff;
+    border-color: rgb(29, 59, 108);
 }
 .googlebtn img {
     width: 30px;

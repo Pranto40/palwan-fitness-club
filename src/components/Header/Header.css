@@ -7,11 +7,21 @@
 .nav-item a {
     text-decoration: none;
     font-size: 21px;
-    padding: 8px 25px;
+    padding: 5px 25px;
     border-radius: 31px;
     transition: all .2s linear;
+    margin-right: 5px;
 }
 .nav-item a:hover {
     color: #fff !important;
-    background: red;
+    background: rgb(180, 18, 56);
+}
+.logOutBtn {
+    border: none;
+    padding: 5px 20px;
+    font-size: 17px;
+    background: rgb(180, 18, 56);
+    border-radius: 50px;
+    margin-right: 7px;
+    color: #fff;
 }
