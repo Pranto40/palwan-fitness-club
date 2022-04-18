@@ -1,7 +1,7 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import React from 'react';
 import { Form } from 'react-bootstrap';
-import { Link } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";
 import googleIcon from '../../images/google-icon.png';
 import { auth } from "../../Firebase/firebase.init";
@@ -66,6 +66,15 @@ const SignUp = () => {
         e.preventDefault();
         createUserWithEmailAndPassword(userInfo.email, userInfo.password);
     };
+
+    const navigate = useNavigate();
+       const location = useLocation();
+       const from = location.state?.from?.pathname || "/services";
+       useEffect(() => {
+           if (user) {
+               navigate(from);
+           }
+       }, [user]);
 
     // show password icon toogle state
     const [showPass, setShowPass] = useState(false);
