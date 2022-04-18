@@ -1,20 +1,23 @@
 [
     {
-        "img": "http://themeturn.com/tf-db/palwan-demo/palwan/assets/images/services/img-1.jpg",
-        "title": "the name of armi",
+        "img": "http://themeturn.com/tf-db/palwan-demo/palwan/assets/images/services/img-6.jpg",
+        "title": "Fitness Track",
+        "price": "$330",
         "id": "1",
-        "description": "Our instructors and personal trainers will help you. uibusdam vite"
+        "description": "No matter what your needs, there's never been a better time to find a powerful, sophisticated tool that can help you optimize your workouts or jump-start your routine."
     },
     {
-        "img": "http://themeturn.com/tf-db/palwan-demo/palwan/assets/images/services/img-1.jpg",
-        "title": "the name of armi",
+        "img": "http://themeturn.com/tf-db/palwan-demo/palwan/assets/images/services/img-2.jpg",
+        "title": "body building",
+        "price": "$260",
         "id": "2",
-        "description": "Our instructors and personal trainers will help you. uibusdam vite"
+        "description": "Our fitness experts have been selected from the best of the best across the globe. To specifically offer our members the benefit of their fitness credentials and expertise."
     },
     {
-        "img": "http://themeturn.com/tf-db/palwan-demo/palwan/assets/images/services/img-1.jpg",
-        "title": "the name of armi",
-        "id": "6",
-        "description": "Our instructors and personal trainers will help you. uibusdam vite"
+        "img": "http://themeturn.com/tf-db/palwan-demo/palwan/assets/images/services/img-3.jpg",
+        "title": "Cycling",
+        "price": "$470",
+        "id": "3",
+        "description": "Cycling can help to protect you from serious diseases such as stroke, heart attack, some cancers, depression, diabetes, obesity and arthritis."
     }
 ]
