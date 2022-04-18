@@ -80,22 +80,22 @@ const SignUp = () => {
             <Form.Group className="mb-3" controlId="formBasicEmail">
                 <Form.Label>Email address</Form.Label>
                 <Form.Control type="email" placeholder="Enter email"  onChange={handleEmailChange} />
-                {errors?.email && <p className="error-message">{errors.email}</p>}
+                {errors?.email && <p style={{color: 'red'}}>{errors.email}</p>}
             </Form.Group>
 
             <Form.Group className="mb-3" controlId="formBasicPassword">
                 <Form.Label>Password</Form.Label>
                 <div className="position-relative">
                 <Form.Control type={showPass ? "text" : "password"} placeholder="Password" onChange={handlePasswordChange} />
-                {errors?.password && <p className="error-message">{errors.password}</p>}
-                <p className="position-absolute top-0 end-0" onClick={() => setShowPass(!showPass)}>👁‍🗨</p>
+                {errors?.password && <p style={{color: 'red'}}>{errors.password}</p>}
+                <p className="position-absolute top-0 end-0 mt-2 me-3" onClick={() => setShowPass(!showPass)}>👁‍🗨</p>
                 </div>
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicPassword">
                 <Form.Label>Confirm Password</Form.Label>
                 <div className="position-relative">
                 <Form.Control type={showPassconfirm ? "text" : "password"} placeholder="confirm-password"  onChange={handleConfirmPasswordChange} />
-                <p className="position-absolute top-0 end-0" onClick={() => setShowPassConfirm(!showPassconfirm)}>👁‍🗨</p>
+                <p className="position-absolute top-0 end-0 mt-2 me-3" onClick={() => setShowPassConfirm(!showPassconfirm)}>👁‍🗨</p>
                 </div>
             </Form.Group>
             <Form.Group className="mb-3" controlId="formBasicCheckbox">
