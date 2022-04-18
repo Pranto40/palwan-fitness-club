@@ -70,7 +70,7 @@ const SignUp = () => {
     // show password icon toogle state
     const [showPass, setShowPass] = useState(false);
     const [showPassconfirm, setShowPassConfirm] = useState(false);
-
+    
     return (
         <div className="container">
             <div className="row">
